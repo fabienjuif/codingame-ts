@@ -1,7 +1,7 @@
 import { main } from "./reverse-minesweeper";
 import { getExpectLog } from "./testUtils";
 
-describe("1d_spreadhseet", () => {
+describe("reverse-minesweeper", () => {
   const expectResults = getExpectLog(main);
 
   test("data test 01", () => {
